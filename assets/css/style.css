@@ -5,6 +5,15 @@
     font-family: 'Inter', sans-serif;
 }
 
+.back{
+    background-color: hsl(236, 13%, 42%);
+    width: 100vw;
+    height: 150vh;
+    margin-top: -100vh;
+    position: absolute;
+    opacity: 0.3;
+    display: none;
+}
 header{
     height: 16vh;
     display: flex;
@@ -229,7 +238,6 @@ main{
 }
 
 @media screen and (max-width: 500px) {
-    body{}
     .logo{
         margin-left: 8vw;
     }
@@ -256,9 +264,8 @@ main{
         padding: 15px;
         height: 282vh;
         width: 100%;
-        transition: all ease 0.3s;
+        transition: all ease 0.5s;
         display: none;
-        box-shadow: -200px 0px 250px #555577;
     }
     
     header nav ul{
@@ -391,9 +398,8 @@ main{
         padding: 15px;
         height: 282vh;
         width: 100%;
-        transition: all ease 0.3s;
+        transition: all ease 0.5s;
         display: none;
-        box-shadow: -165px 0px 250px #555577;
     }
 
     .menu-close{
